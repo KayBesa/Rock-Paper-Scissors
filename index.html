@@ -28,7 +28,9 @@
             <p>Can you beat this simple AI?</p>
         </div>
         <div class="scoreBoard">
+            <!-- Scoreboard to track scores of user and AI-->
             <div class="user">
+                <!-- User score details-->
                 <p>Player 1</p>
                 <div class="userScore">
                     <p>Score</p>
@@ -36,12 +38,19 @@
                 </div>
             </div>
             <div class="AI">
+                <!-- AI score details-->
                 <p>Computer</p>
                 <div class="aiScore">
                     <p>Score</p>
                     <div id="compScore">0</div>
                 </div>
             </div>
+        </div>
+        <div class="options">
+            <!-- Contains options user has when playing the game-->
+            <span> <img id="rock" src = "images/rock.png" width="50"></span>
+            <span id="secondSpan"> <img id="paper" src = "images/paper.png" width="50"></span>
+            <span> <img id="scissors" src = "images/scissors.png" width="50"></span>
         </div>
     </div>
     <script src="scripts/app.js"></script>
