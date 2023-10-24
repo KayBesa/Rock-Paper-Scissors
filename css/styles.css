@@ -53,6 +53,7 @@ body {
     margin: 40px;
     border-radius: 6%;
     display: flex;
+    animation: fadeIn 5s;
 }
 
 .user {
@@ -110,4 +111,35 @@ body {
 #compScore {
     margin-top: 20px;
     font-size: 25px;
+}
+
+img {
+    border-radius: 50%;
+    border: solid 5px;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition-duration: 500ms;
+}
+
+span {
+    animation: fadeIn 5s;
+}
+
+#secondSpan {
+    padding: 40px;
+}
+
+#rock {
+    border-color: red;
+}
+
+#paper {
+    border-color: blue;
+}
+
+#scissors {
+    border-color: green;
 }
