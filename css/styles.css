@@ -1,0 +1,19 @@
+/**
+    Name: Kasonde Besa
+    Script: styles.css
+    Description: Styling for simple JavaScript webApp of rock-paper-scissors that
+                 a player can play against AI.
+    Date: October 23rd, 2023
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(10, 10, 39);
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+}
